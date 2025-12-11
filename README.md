@@ -2,7 +2,7 @@
 
 Fall Quarter 2025, STAT 362, Fauzan Aryaputra
 
-Project Description:
+**Project Description**:
 
 This project models pairwise offensive player synergy in the NBA, extending my honors thesis on Synergistic RAPM (S-RAPM). The goal is to predict the counterfactual synergy between two players using only their individual statistics, i.e., estimate how well two players would perform together even if they have never shared the court.
 
@@ -10,10 +10,10 @@ This project tries to answer a simple but difficult question:
 
 __*Can we use a player’s individual statistics to predict how well two players would perform together, even if they have never played together before?*__
 
-The dataset consists of:
+**The dataset consists of**:
 
-Player-season box score and advanced stats (datasets/X_pair.csv)
-Pairwise offensive S-RAPM labels computed from lineup data and possessions played per pair (datasets/Y_pair.csv)
+* Player-season box score and advanced stats (datasets/X_pair.csv)
+* Pairwise offensive S-RAPM labels computed from lineup data and possessions played per pair (datasets/Y_pair.csv)
 
 The final training data contains thousands of player–player pairs per season, each represented by two sets of player features and a synergy target.
 
