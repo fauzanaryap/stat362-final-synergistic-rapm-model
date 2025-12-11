@@ -1,5 +1,27 @@
 # stat362-final-synergistic-rapm-model
 
+**INSTRUCTIONS**
+
+In order to replicate my model, you will need to go through the Jupyter Notebooks in the \src folder in this order:
+
+1. stint_processing.ipynb
+ * This notebook walks through gathering all the play-by-play data across the last 10 years of the NBA
+ * Run each cell sequentially and wait patiently for it to pull the data and process the play-by-play dfs into stint-level dataframes
+ * You need to run this step! Or else there will be no target variable.
+2. stat_collection.ipynb
+ * This notebook will gather all of the X features from nba_api
+ * Run each cell sequentially and wait patiently for it to pull the data
+ * _This step is not necessary if looking at the last 10 years of NBA data, as it has already been uploaded for your convenience_
+3. data_cleaning.ipynb
+ * This notebook cleans the stint data to actionable S-RAPM
+ * Also cleans X features
+ * Follow the instructions in the notebook and run through it sequentially
+4. model.ipynb
+ * Where all the magic happens!
+ * Run through the notebook sequentially and follow instructions
+
+***
+
 Fall Quarter 2025, STAT 362, Fauzan Aryaputra
 
 **Project Description**:
