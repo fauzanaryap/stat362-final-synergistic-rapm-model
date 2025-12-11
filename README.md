@@ -4,7 +4,7 @@
 
 In order to replicate my model, you will need to go through the Jupyter Notebooks in the \src folder in this order:
 
-0. Run the pyproject.tomml to install all libraries
+0. Run the pyproject.toml to install all libraries
 1. stint_processing.ipynb
  * This notebook walks through gathering all the play-by-play data across the last 10 years of the NBA
  * Run each cell sequentially and wait patiently for it to pull the data and process the play-by-play dfs into stint-level dataframes
